@@ -1,0 +1,57 @@
+body{
+    background-image: url('img/white-cloud-blue-sky-sea_74190-4488.webp');
+}
+.App{
+    width: 350px;
+    margin: 5% auto;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.App > h3{
+    text-align: center;
+}
+form{
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+}
+form > input{
+    width: 90%;
+    padding: 10px;
+    margin: 5%;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    outline: 0ch;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+::placeholder {
+    color: rgba(245, 245, 245, 0.89);
+  }
+
+form > button {
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    outline: 0ch;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 10px;
+}
+.weather{
+    padding: 10px;
+    font-size: 20px;
+}
+.weather > p{
+    font-weight: 100;
+}
+.weather > p > span{
+    font-weight: 600;
+}
+
